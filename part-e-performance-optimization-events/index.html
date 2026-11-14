@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>QuickCart - JavaScript Advanced Concepts</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>QuickCart</h1>
+        <p>Advanced JavaScript Practical Assignment</p>
+    </header>
+
+    <main>
+
+        <!-- Debouncing -->
+        <section class="card">
+            <h2>1. Product Search - Debouncing</h2>
+
+            <input type="text" id="searchInput" placeholder="Search products...">
+
+            <p id="searchResult">Search results will appear here.</p>
+        </section>
+
+
+        <!-- Throttling -->
+        <section class="card">
+            <h2>2. Scroll Event - Throttling</h2>
+
+            <p>Scroll down the page to test throttling.</p>
+
+            <p id="scrollResult">Scroll events: 0</p>
+        </section>
+
+
+        <!-- Memoization -->
+        <section class="card">
+            <h2>3. Memoization</h2>
+
+            <button id="discountButton">
+                Calculate Discount
+            </button>
+
+            <p id="discountResult"></p>
+        </section>
+
+
+        <!-- Event Bubbling -->
+        <section class="card">
+            <h2>4. Event Bubbling</h2>
+
+            <div id="bubbleParent">
+                <button id="bubbleButton">
+                    Click to Test Bubbling
+                </button>
+            </div>
+
+            <p id="bubbleResult"></p>
+        </section>
+
+
+        <!-- Event Delegation -->
+        <section class="card">
+            <h2>5. Product List - Event Delegation</h2>
+
+            <ul id="productList">
+                <li>
+                    Laptop
+                    <button class="removeButton">Remove</button>
+                </li>
+
+                <li>
+                    Mouse
+                    <button class="removeButton">Remove</button>
+                </li>
+
+                <li>
+                    Keyboard
+                    <button class="removeButton">Remove</button>
+                </li>
+            </ul>
+
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
